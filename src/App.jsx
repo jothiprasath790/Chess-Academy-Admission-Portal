@@ -1,13 +1,14 @@
-// src/App.jsx
-import React from 'react';
-import LoginPage from './pages/LoginPage';
-
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+// import './App.css'
+import Hello_World from "./components/Hello_World"
 function App() {
+  // const [count, setCount] = useState(0)
+
   return (
-    <div>
-      <LoginPage />
-    </div>
-  );
+    <Hello_World />
+  )
 }
 
-export default App;
+export default App
