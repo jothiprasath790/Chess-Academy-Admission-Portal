@@ -1,0 +1,27 @@
+#header
+{
+  display: grid;
+  background-color: aqua;
+  text-align: center;
+}
+#siteinfo
+{
+  text-align: left;
+  padding: 5px;
+}
+#siteinfo h1
+{
+  font-size: 20px;
+  padding: 0px;
+  line-height:0.5;
+}
+.navlink
+{
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(102,103,103);
+  text-decoration: none;
+}
